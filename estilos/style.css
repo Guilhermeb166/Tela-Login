@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*&Versão para Celulares*/
 *{
     margin: 0px;
     padding: 0;
@@ -44,13 +45,13 @@ main{
     border-radius: 5px;
     height: 27px;
     width: 80%;
-    
 }
 .campo input{
     border: none;
     border-radius:5px;
     width: 100%;
 }
+
 input[type=submit]{
     padding: 8px;
     width: 60%;
@@ -75,7 +76,6 @@ input[type=submit]:hover{
 #senha a{
     text-decoration: none;
     color: darkblue;
-    
 }
 #senha a:hover{
     color: white;

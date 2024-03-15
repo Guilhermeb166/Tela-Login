@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <h1>Faça o Login</h1>
+            <form action="" autocomplete="off">
+                <div class="campo">
+                    <input type="text" name="user" id="iduser" required maxlength="20" minlength="3">
+                    <label for="iduser"></label><span class="material-symbols-outlined">person
+                    <span>
+                    
+                </div>
+                <div class="campo">
+                    <input type="password" name="senha" id="idsenha" maxlength="15" minlength="4" required>
+                    <label for="idsenha"></label>
+                      <span class="material-symbols-outlined">lock</span>
+                </div>
+                <input type="submit" value="Login">
+            </form>
+            <p id="senha">Esqueceu a senha? <a href="#">clique aqui</a></p>
+        </section>
+    </main>
+</body>
+</html>

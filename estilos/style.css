@@ -6,9 +6,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-    background-image:url(../img/fundopc.jpg);
+    background-image:url(../img/fundocell.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
     width: 100vw;
 }
@@ -21,55 +22,59 @@ main{
 #login{
     backdrop-filter: blur(5px);
     border-radius: 10px;
-    padding:45px;
+    padding:45px 20px;
     background-color: rgba(255, 255, 255, 0.26);
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.495);
+    width: 70%;
+    max-width: 320px;
 }
 #login h1{
     position: relative;
     top: -20px;
     font-size: 1.5em;
     color: white;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.978);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.978);
 }
 .campo{
     background-color: white;
     display: flex;
     margin: 25px auto;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.559);
     border-radius: 5px;
     height: 27px;
+    width: 80%;
+    
 }
 .campo input{
     border: none;
-    border-radius: 5px;
+    border-radius:5px;
     width: 100%;
 }
-
-
 input[type=submit]{
     padding: 8px;
     width: 60%;
-    margin-top: 10px;
+    margin-top: 7px;
     border-radius: 5px;
-    background-color: #467EB1;
+    background-color: #4683bc;
     border: 1px solid rgba(0, 0, 0, 0.286);
     cursor: pointer;
     color: black;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.319);
 }
 input[type=submit]:hover{
-    background-color: #242893;
+    background-color: #2e32aa;
     color: white;
 }
 #senha{
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.223);
 }
 #senha a{
     text-decoration: none;
+    color: darkblue;
     
 }
 #senha a:hover{

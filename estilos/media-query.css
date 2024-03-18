@@ -24,5 +24,8 @@
      #login h1{
         font-size: 2em;
      }
+    .campo{
+        width: 70%;
+    }
  }
 

@@ -43,13 +43,14 @@ main{
     margin: 25px auto;
     border: 1px solid rgba(0, 0, 0, 0.559);
     border-radius: 5px;
-    height: 27px;
+    height: 20px;
     width: 80%;
+    height: 100%;
 }
 .campo input{
     border: none;
     border-radius:5px;
-    width: 100%;
+    width: 100%; 
 }
 
 input[type=submit]{
